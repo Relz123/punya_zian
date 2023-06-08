@@ -1,0 +1,20 @@
+
+/* input */
+input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #ffeba7;
+    margin-bottom: 1rem;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  input:focus {
+    border-bottom: 1px solid #ff8a5c;
+  }
+  input::placeholder {
+    color: #ffeba7;
+  }
